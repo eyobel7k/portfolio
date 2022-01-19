@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-BootCamp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class=" navbar navbar-expand-lg bg-success navbar-dark fixed-top ">
+        <div class="container py-2 ">
+            <a href="https://twitter.com/7Limitless7" class="navbar-brand"><img class="w-50" src="Images/quality-modified.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#About" class="nav-link js-scroll-trigger">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#teach" class="nav-link js-scroll-trigger">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Education" class="nav-link js-scroll-trigger">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Portfolio" class="nav-link js-scroll-trigger">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link js-scroll-trigger">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- show case area -->
+    <section class="bg-light bg-gradient text-dark text-center text-sm-start mt-5 p-5 p-lg-0 pt-lg-5">
+        <div class="container ">
+            <div id="About" class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Hi, I'm <span class="text-success">Eyobel</span></h1>
+                    <p class="lead py-4">A skilled and passionate Front-end web developer based in San Jose, CA </p>
+
+                    <p class="lead py-1 text-center text-success fw-bold">Have a project?</p>
+                    <div class="text-center ">
+
+                        <!-- <button class="btn btn-warning btn-lg my-1 ">Let's Talk</button> -->
+                        <div class=" pb-5 h2">
+                            <a href="https://twitter.com/7Limitless7"><i class="bi bi-twitter  bg-dark text-light rounded-circle mx-1 px-1 "></i></a>
+                            <a href="https://www.linkedin.com/in/eyob-asefa-78a926218/"><i class="bi bi-linkedin text-dark bg-light   text-dark mx-1"></i></a>
+                            <a href="https://github.com/eyobel7k"><i class="bi bi-github text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="Images/output-onlinejpgtools.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+
+    </section> 
+    <!-- card -->
+    <!-- <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4 ">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h1 class="mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </h1>
+
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt
+                                ratione assumenda, nesciunt aliquid perspiciatis?</p>
+                            <div class="b-link d-flex align-items-center justify-content-center">
+                                <a href="" class="nav-link link-warning ">Github</a>
+                                <a href="" class="nav-link link-warning">Live</a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h1 class="mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </h1>
+
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt
+                                ratione assumenda, nesciunt aliquid perspiciatis?</p>
+                            <div class="b-link d-flex align-items-center justify-content-center">
+                                <a href="" class="nav-link link-warning ">Github</a>
+                                <a href="" class="nav-link link-warning">Live</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h1 class="mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </h1>
+
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt
+                                ratione assumenda, nesciunt aliquid perspiciatis?</p>
+                            <div class="b-link d-flex align-items-center justify-content-center">
+                                <a href="" class="nav-link link-warning ">Github</a>
+                                <a href="" class="nav-link link-warning">Live</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section> -->
+    <!-- About Me section -->
+    <hr class="bg-success bg-gradient text-dark">
+    <section id="Learn" class="p-5 bg-light bg-gradient text-dark">
+        <div class="container">
+            <div class="row align-items justify-content-between  ">
+                <div class="col-md p-5">
+                    <img class="img-fluid p-5 mt-5 " src="Images/undraw_static_assets_rpm6.svg" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h1 class="p-3"><strong>About Me</strong></h1>
+                    <p class="lead">I am experienced in building and maintaining responsive websites and mobile
+                        applications</p>
+                    <p class="lead"><span class="lead fw-bold text-primary">Problem-solving skills</span> - I have
+                        exceptional analytical and problem-solving skills with enthusiasm and ambition tо complete
+                        projects tо the highest standard. I have experience in designing and developing mobile and web
+                        applications using <strong>React Native, React.Js, JavaScript, HTML5, CSS and Bootstrap</strong>
+                    </p>
+                    <p class="lead"><span class="lead text-primary fw-bold">Excellent communication skills </span>– My
+                        positive attitude and excellent teamwork skills enable me to deliver projects on time while
+                        collaborating with cross-functional teams.
+                    </p>
+
+                    <a href=https://www.linkedin.com/in/eyob-asefa-78a926218/ class="btn btn-success mt-3"><i class="bi bi-chevron-right"></i>Learn More</a>
+                </div>
+
+
+
+                
+            </div>
+        </div>
+    </section>
+     <!-- Experience Section -->
+    <section id="teach" class="bg-success bg-gradient  text-light p-4 align-items-center text-center ">
+        <div class="container ">
+            <div class="">
+                <h2 class="mb-3 mb-md-0"> Experience</h2>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Experience Section -->
+    <section  class="p5 bg-light bg-gradient text-center ">
+        <div class="container">
+            <div class="row align-items justify-content-between">
+                <div class="col-md p-5">
+                    <p class="h3 text-primary fw-bold pt-2">REACT-NATIVE APPRENTICE</p>
+
+                    <p class="h4  text-secondary  mb-2 mx-2">ALPHAWORKS </p>
+                    <span class="text-primary flex-shrink-0 mx-5">September 2021 - present</span>
+                    <p class="pt-3">Alphaworks' Apprenticeship program is designed to help bridge the gap between
+                        learning and working in the technology industry. Apprentices are given relevant projects to work
+                        on under the supervision of seasoned technical leads.</p>
+                    <ul class="pt-3">
+                        <li class="fw-italic text-start">Develop functional and appealing mobile and web applications.
+                        </li>
+                        <li class="text-start"> Collaborating with cross-functional teams(i.e. QA & Security teams) </li>
+                        <li class="text-start">Contribute to an Agile team environment</li>
+                        <li class="text-start">Build dynamic websites using React Native, React and JS </li>
+                        <li class="text-start"> By building web and mobile applications, I gained knowledge in essential
+                            React and React Native concepts.</li>
+                    </ul>
+                    <a href="https://bitwiseindustries.com/services/workforce-training/apprenticeships/"
+                        class="btn btn-primary mt-3"><i class="bi bi-chevron-right"></i>Learn More</a>
+                </div>
+                <div class="col-md p-5">
+                    <img class="img-fluid " src="Images/undraw_my_code_snippets_lynx.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <section id="Education" class="bg-success bg-gradient  text-light p-4 align-items-center text-center ">
+        <div class="container ">
+            <div class="">
+                <h2 class="mb-3 mb-md-0"> Education</h2>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Education Section -->
+    <section id="teach" class="p5 bg-light bg-gradient text-center ">
+        <div class="container">
+            <div class="row align-items justify-content-between">
+                <div class="col-md p-5">
+                    <p class="h5 text-primary  pt-2 text">Full Stack Web development</p>
+
+                    <p class="h6  text-secondary  mb-2 mx-2">Evangadi Networks </p>
+                    <span class="text-primary flex-shrink-0 mx-5">September 2020</span>
+                    <p class="pt-3">Learned to convert HTML and CSS static websites to dynamic web pages using JavaScript and
+                        latest web development technologies (React and Node)</p>
+
+
+                    <p class="h5 text-primary  pt-2">Accounting</p>
+
+                    <p class="h6  text-secondary  mb-2 mx-2">Cal Poly Pomona</p>
+                    <span class="text-primary flex-shrink-0 mx-5">August 2015</span>
+                    <p class="pt-3">Bachelor of Science: Business Administration, Accounting</p>
+
+                    <a href="https://www.evangadi.com/explained/"
+                        class="btn btn-success mt-3"><i class="bi bi-chevron-right"></i>Learn More</a>
+                </div>
+                <div class="col-md p-5">
+                    <a href='https://www.freepik.com/vectors/technology'>
+                    <img class="img-fluid " src="Images/3426526_ccexpress.png" alt="">
+                
+                </a>
+                <a  id="pagination" class="text-success shrink-0  " href="https://www.freepik.com/vectors/technology">Technology vector created by stories - www.freepik.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section -->
+
+    <section id="Portfolio" class="p-5 bg-success bg-gradient ">
+        <div class="container">
+            <h3 class="text-white text-center">Portfolio</h3>
+            <p class=" fs-5 text-white text-center mb-5">Some of my best works</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" ">
+                    <div class="card bg-warning bg-gradient text-dark">
+                        <div class=" card-body text-center">
+                            <img class="rounded-circle mb-3 mt-3 w-50" src="Images/Marvel-Capitanamerica-Movies-Avengers-Action-4662342-modified (1).png"
+                                alt="">
+                            <h5 class="text-center mb-3">Marvel Space</h5>
+                            <p>A React-Native version of a MySpace clone that uses React-Native components for Android and web applications. A user will be able to customize the theme for their MySpace page, create an account, send messages, friend requests, post pictures, add feed posts and search for profiles </p>
+                            <a href="https://github.com/eyobel7k/team-black-panther"><i class="bi bi-github text-dark mx-3"></i></a>
+                            <a href="https://eyobel7k.github.io/team-black-panther/" class="mx-3">preview</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card bg-light bg-gradient text-dark urgent">
+                        <div class=" card-body text-center ">
+                            <img class="rounded-circle mb-3 mt-3  w-50" src="Images/haunted-modified (1).png"
+                                alt="">
+                            <h5 class="text-center mb-3">Haunted House</h5>
+                            <p>Haunted house is an interactive Halloween themed game built using React. During trick-or-treating, the players end up stuck in a haunted house. To get out of the haunted house, they need to find the key, but first they must explore each room and complete the challenges to find the silver key.</p>
+                            <a href="https://github.com/luceroweb/haunted-house-game"><i class="bi bi-github text-dark mx-3"></i></a>
+                            <a href="https://luceroweb.github.io/haunted-house-game/#/" class="mx-3">preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card bg-warning bg-gradient text-dark">
+                        <div class=" card-body text-center">
+                            <img class="rounded-circle mb-3 mt-3 w-50" src="Images/direction-2320124_960_720-modified.png"
+                                alt="">
+                            <h5 class="text-center mb-3">Decidr</h5>
+                            <p>The Decider app was developed using React. This app is designed to help users select from an  arbitrary list of options. Users can add and remove options from the list at any time. Once the user is done, the app selects a random option from the list. Responsive on both  mobile and desktop  </p>
+                            <a href="https://github.com/eyobel7k/Decidr"><i class="bi bi-github text-dark mx-3"></i></a>
+                            <a href="https://eyobel7k.github.io/Decidr/" class="mx-3">preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" >
+                    <div class="card bg-warning bg-gradient text-dark">
+                        <div class=" card-body text-center">
+                            <img class="rounded-circle mb-3 mt-3 w-50" src="Images/nehula-modified.png"
+                                alt="">
+                            <h5 class="text-center mb-3">ecard</h5>
+                            <p class="mb-5">A React app that creates custom greeting cards for the holiday season. It is easy to customize and  reshare with friends and family. Responsive on both mobile devices and web pages.See it in action by clicking the live demo and start resharing </p>
+                            <a href="https://github.com/eyobel7k/ecard"><i class="bi bi-github text-dark mx-3 mt-5"></i></a>
+                            <a href="https://eyobel7k.github.io/ecard/" class="mx-3">preview</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section class="p-5" id="contact">
+        <div class="container">
+
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center fw-bold mb-4"> Contact Info</h2>
+                    <ul class="lead list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location</span>: 2022 Lucky Ave
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email</span>:eyobel7k@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">phone</span>:408-333-0303
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Website</span>:eyobel.com
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    
+    <footer class="bg-success text-light align-items-center p-5 position-relative font-weight-light">
+        <div class="container">
+            <p class="text-light text-center ">Copy Right :2022</p>
+            <a class="position-absolute bottom-0 end-0 p-5 text-light" href="#">
+                <i class="bi bi-arrow-up-circle h1 "></i>
+            </a>
+        </div>
+
+    </footer>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'>
+
+    </script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFwN2swIiwiYSI6ImNreWZscmU4YjBxa3Yyd21scXk4NWliZjIifQ._MM6qrj0zqbP4Gh7uDGXqA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-121.8940, 37.3495],
+            zoom: 18,
+        });
+    </script>
+
+</body>
+
+</html>
