@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="./MaxPixel.net-Symbol-Time-File-Clock-Gray-Time-Temporary-Icon-26683.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,6 +10,7 @@
       content="A skilled front-end developer with exceptional analytical and problem-solving skills.
       "
     />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -53,13 +54,14 @@
 </script>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoibWFwN2swIiwiYSI6ImNreWZscmU4YjBxa3Yyd21scXk4NWliZjIifQ._MM6qrj0zqbP4Gh7uDGXqA';
-    var map = new mapboxgl.Map({
-        container: 'map',
+    var direction = new mapboxgl.Map({
+        container: 'direction',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: [-121.8940, 37.3495],
         zoom: 18,
     });
 </script>
+
 
 
     
